@@ -1,6 +1,6 @@
 <template>
-  <div class="app bg-logo bg-cover">
-    <Navbar></Navbar>
+<div class="app bg-logo bg-cover">
+      <Navbar></Navbar>
     <router-view />
     <!-- <Socials /> -->
     <!-- <Footer /> -->

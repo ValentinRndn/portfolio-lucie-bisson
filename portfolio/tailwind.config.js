@@ -8,6 +8,12 @@ module.exports = {
     extend: {
       colors: {
         'blue': '#0038C9',
+        'lightbrown': "#F8F3E9",
+        'midbrown': "#E6D8C7",
+        "darkbrown": "#D1B9A5",
+        'darkblue': "#222651",
+        'lightblue': "#638ECA",
+        'miidblue': "#395668"
       },
       fontFamily: {
         'fira' : ['fira_code', 'sans-serif'],
