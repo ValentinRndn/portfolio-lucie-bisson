@@ -8,16 +8,12 @@ module.exports = {
     extend: {
       colors: {
         'blue': '#0038C9',
-        'light-blue': '#1478f3',
-        'darkblue': '#063682',
-        'light-grey': '#999999',
       },
       fontFamily: {
         'fira' : ['fira_code', 'sans-serif'],
       },
       backgroundImage: {
-        'pixel': 'url("./assets/black-pixel.gif")',
-        'freelanceWebsite' : 'url("./assets/home/stacklab.png")',
+        'logo': 'url("./assets/home/fonds.png")',
 
       },
       screens: {
