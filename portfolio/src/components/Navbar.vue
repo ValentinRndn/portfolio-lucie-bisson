@@ -1,9 +1,10 @@
 <template>
-<div class="navbar-container flex justify-between mx-20 text-xl py-10 text-white ">
-    <div class="navbar-left-container">
-        <h1><router-link to="/">Portfolio</router-link></h1>
+    <aside>
+<div class="navbar-container flex justify-between text-xl py-20 text-white bg-darkblue">
+    <div class="navbar-left-container ml-24">
+        <h1><router-link to="/">LUCIE BISSON</router-link></h1>
     </div>
-    <div class="navbar-right-container ">
+    <div class="navbar-right-container mr-24 ">
         <ul class="flex gap-10 ">
         <li><router-link to="/about">A propos</router-link></li>
         <li><router-link to="/portfolio">Portfolio</router-link></li>
@@ -12,7 +13,7 @@
     </ul>
     </div>
 </div>
-
+</aside>
 </template>
 
 <script>
