@@ -5,18 +5,22 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx,css}"
   ],
   theme: {
-    // fontSize: {
-    //   'xxl': '5rem',
-    // },
+    fontSize: {
+      sm: ['14px', '20px'],
+      base: ['16px', '24px'],
+      lg: ['20px', '28px'],
+      xl: ['24px', '32px'],
+      'xxl': ['11rem', {
+        lineHeight: '1'
+      }],  
+    },
     extend: {
       colors: {
-        'blue': '#0038C9',
-        'lightbrown': "#F8F3E9",
-        'midbrown': "#e4b378",
-        "darkbrown": "#D1B9A5",
-        'darkblue': "#222651",
-        'lightblue': "#638ECA",
-        'miidblue': "#395668"
+        'lightred': "#DE3A31",
+        'lightpink': "#F9B29C",
+        'darkred': "#5F090A",
+        'salmon': "#F96069",
+        'lightblue': "#A3879A",
       },
       fontFamily: {
         'fira' : ['fira_code', 'sans-serif'],

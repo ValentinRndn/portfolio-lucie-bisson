@@ -1,7 +1,7 @@
 <template>
-<div class="app ">
-      <Navbar></Navbar>
-      <Welcome class="absolute"/>
+<div class="app bg-black h-screen ">
+      <!-- <Navbar></Navbar> -->
+
     <router-view />
     <!-- <Socials /> -->
     <!-- <Footer /> -->
