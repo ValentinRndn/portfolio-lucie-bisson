@@ -1,9 +1,20 @@
 <template>
-    <div class="introduction-container w-full flex justify-center items-center bg-lightred px-12 gap-20">
-        <div class="introduction-left-container flex flex-col">
+    <div class="introduction-container w-full flex justify-center items-center bg-lightred p-20 gap-20">
+        <div class="introduction-left-container flex flex-col pointer-events-none relative">
     <span id="intro" class="text-darkred text-[8rem] font-bold">INTRO<br>DUCTION</span>
     <span id="intro" class="text-darkred text-[8rem] font-bold">INTRODUC<br>TION</span>
-<img src="../assets/intro/pp.png" alt="Profil Picture" class="object-cover w-[200px] absolute ">
+    <div class="image-container absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+  <!-- Le cadre décalé en arrière-plan -->
+  <div class="backpicture w-[340px] h-[450px] border-2 border-lightpink absolute top-4 right-4 bg-lightred"></div>
+
+  <!-- L'image principale -->
+  <img
+    src="../assets/intro/ppred.png"
+    alt="Profil Picture"
+    class="object-cover w-[400px] border-2 border-darkred bg-lightred relative"
+  />
+</div>
+
 </div>
 <div class="introduction-right-container flex flex-col gap-20">
 
@@ -48,7 +59,7 @@
   
   <script>
   export default {
-    name: "Welcome",
+    name: "Introduction",
 
   };
   </script>
