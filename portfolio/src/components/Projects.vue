@@ -1,7 +1,7 @@
 <template>
     <div class="projects-container w-full flex flex-col justify-center items-center bg-black gap-20">
         <div class="projects-container-title">
-        <span class="text-[10rem] relative font-bold text-darkred">
+        <span class="text-[10rem] relative font-bold text-darkred md:text-[5rem]">
   Projets
   <span class="text-lightpink font-relation text-[5rem] absolute left-8 top-16 ">
     Découvrez
@@ -63,7 +63,7 @@
 <div class="academic-projects-container w-full mt-24">
     <div class="top-academic-projetcs-container flex justify-center items-center">
         <div class="left-academic-projects-container-title w-3/5 flex items-center justify-center">
-            <span class="text-[8rem] relative font-bold text-darkred">
+            <span class="text-[8rem] relative font-bold text-darkred md:text-[5rem]">
                 Académiques
                 <span class="text-lightpink font-relation text-[6rem] absolute left-10 top-10">
                     Projets
