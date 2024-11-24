@@ -75,6 +75,12 @@
             <span id="academic" class="text-darkred text-[15rem] font-bold ml-28 -mt-40">ACADEMIQUE</span>
         </div>
     </div>
+
+    <div class="academic-projects-content flex gap-8 mx-8 mt-8">
+    <img src="../assets/projects/charrues/pancart.png" alt="pancart-charrues" class="w-1/2">
+    <img src="../assets/projects/pettokaskes/mockup-flyer.png" alt="mockup-flyer" class="w-1/2">
+</div>
+
 </div>
 
 

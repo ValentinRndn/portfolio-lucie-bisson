@@ -6,3 +6,13 @@ html {
     scroll-behavior: smooth;
   }
 
+  .from_bottom{
+    opacity: 0 !important;
+    transform: translateY(50px) !important;
+    transition: all 0.5s ease-out !important;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

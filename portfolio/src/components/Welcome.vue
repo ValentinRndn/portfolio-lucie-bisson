@@ -8,7 +8,7 @@
 
 
   <div class="portofolio-left-container flex flex-col">
-  <span class="border-t-2 border-lightred relative">PORT
+  <span class="border-t-2 border-lightred relative duration-200 ease-out ">PORT
   <div class="absolute top-[0] right-0 w-[2px] h-[11%] bg-lightred"></div>
 
   </span>
@@ -37,5 +37,15 @@
   </script>
   
   <style scoped>
+  @keyframes drawHorizontal {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+
   </style>
   
