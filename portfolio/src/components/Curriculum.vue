@@ -2,7 +2,7 @@
     <div class="skills-container w-full  bg-black gap-20 relative overflow-hidden py-52 ">
 <span class="text-lightpink transform -rotate-90 font-bold absolute top-[750px]v -left-[700px] border-2 border-lightred p-4">CURRICULUM VITAE · CURRICULUM VITAE · CURRICULUM VITAE · CURRICULUM VITAE · CURRICULUM VITAE · CURRICULUM VITAE · CURRICULUM VITAE · CURRICULUM VITAE · CURRICULUM VITAE</span>
 
-<div class="skills-top-container flex justify-center items-center gap-40 w-full h-full">
+<div class="skills-top-container flex justify-center items-center gap-40 w-full h-full md:flex-col ">
   <div class="top-left-container-relative relative  w-[520px]">
   <div class="backpicture w-[530px] h-[735px] border-2 border-lightpink absolute top-4 right-4 "></div>
 

@@ -9,7 +9,7 @@
 </span>
 </div>
 
-<div class="projects-button-container flex justify-evenly w-full">
+<div class="projects-button-container flex justify-evenly w-full md:flex-col">
         
     <div class="academic-button-container relative h-fit w-fit">
     <div class="backpicture w-full h-full border-2 border-lightpink absolute top-4 right-4 "></div>
@@ -60,27 +60,30 @@
     </div>
 </div>
 
-<div class="academic-projects-container  w-full mt-24">
+<div class="academic-projects-container w-full mt-24">
     <div class="top-academic-projetcs-container flex justify-center items-center">
         <div class="left-academic-projects-container-title w-3/5 flex items-center justify-center">
             <span class="text-[8rem] relative font-bold text-darkred">
                 Académiques
-                <span class="text-lightpink font-relation text-[6rem] absolute left-10 top-10 ">
+                <span class="text-lightpink font-relation text-[6rem] absolute left-10 top-10">
                     Projets
                 </span>
             </span>
         </div>
         <div class="left-academic-projects-container-title flex flex-col w-2/5 overflow-hidden bg-lightred">
-            <span id="academic" class="text-darkred text-[15rem] font-bold ">EMIQUE</span>
+            <span id="academic" class="text-darkred text-[15rem] font-bold">EMIQUE</span>
             <span id="academic" class="text-darkred text-[15rem] font-bold ml-28 -mt-40">ACADEMIQUE</span>
         </div>
     </div>
 
-    <div class="academic-projects-content flex gap-8 mx-8 mt-8">
-    <img src="../assets/projects/charrues/pancart.png" alt="pancart-charrues" class="w-1/2">
-    <img src="../assets/projects/pettokaskes/mockup-flyer.png" alt="mockup-flyer" class="w-1/2">
-</div>
-
+    <div class="academic-projects-content flex justify-center  gap-8 mx-8 mt-8">
+        <img src="../assets/projects/charrues/pancart.png" 
+             alt="pancart-charrues" 
+             class="w-[48%] flex-shrink-0">
+        <img src="../assets/projects/pettokaskes/mockup-flyer.png" 
+             alt="mockup-flyer" 
+             class="w-[48%] flex-shrink-0">
+    </div>
 </div>
 
 
