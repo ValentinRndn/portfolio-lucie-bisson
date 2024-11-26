@@ -61,28 +61,118 @@
 </div>
 
 <div class="academic-projects-container w-full mt-24">
-    <div class="top-academic-projetcs-container flex justify-center items-center">
-        <div class="left-academic-projects-container-title w-3/5 flex items-center justify-center">
-            <span class="text-[8rem] relative font-bold text-darkred md:text-[5rem]">
-                Académiques
-                <span class="text-lightpink font-relation text-[6rem] absolute left-10 top-10">
-                    Projets
-                </span>
-            </span>
-        </div>
-        <div class="left-academic-projects-container-title flex flex-col w-2/5 overflow-hidden bg-lightred">
-            <span id="academic" class="text-darkred text-[15rem] font-bold">EMIQUE</span>
-            <span id="academic" class="text-darkred text-[15rem] font-bold ml-28 -mt-40">ACADEMIQUE</span>
-        </div>
+  <div class="top-academic-projetcs-container flex justify-center items-center">
+    <div class="left-academic-projects-container-title w-3/5 flex items-center justify-center">
+      <span class="text-[8rem] relative font-bold text-darkred md:text-[5rem]">
+        Académiques
+        <span class="text-lightpink font-relation text-[6rem] absolute left-10 top-10">
+          Projets
+        </span>
+      </span>
     </div>
+    <div class="left-academic-projects-container-title flex flex-col w-2/5 overflow-hidden bg-lightred">
+      <span id="academic" class="text-darkred text-[15rem] font-bold">EMIQUE</span>
+      <span id="academic" class="text-darkred text-[15rem] font-bold ml-28 -mt-40">ACADEMIQUE</span>
+    </div>
+  </div>
 
-    <div class="projects-grid-container grid grid-cols-2 gap-8 p-8">
-    <img src="../assets/projects/charrues/pancart.png" alt="pancart-charrues" class="w-full h-auto">
-    <img src="../assets/projects/pettokaskes/mockup-flyer.png" alt="mockup-flyer" class="w-full h-auto">
-    <img src="../assets/projects/purina/logo.png" alt="logo-purina" class="w-full h-auto bg-white">
-    <img src="../assets/projects/reviers/mockup.png" alt="mockup-reviers" class="w-full h-auto">
+  <!-- Scrolling Section -->
+  <div
+    class="projects-academic-grid-container grid grid-cols-2 gap-8 p-8 ">
+    <div class="charrue-container relative w-fit h-fit group overflow-hidden">
+    <img
+      src="../assets/projects/charrues/pancart.png"
+      loading="lazy"
+      alt="pancart-charrues"
+      class="w-full h-auto"
+    />
+    <div
+      class="charrue-overlay flex flex-col  justify-center absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent opacity-0 translate-y-5 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0"
+    >
+      <div class="charrue-text p-4">
+        <span class="text-[3rem] font-bold text-darkred block mb-2">
+          Les Charrues
+        </span>
+        <router-link
+          to="/projet/charrues"
+          class="bg-darkred text-white py-2 px-4 hover:bg-red-600 transition"
+        >
+          En savoir plus
+        </router-link>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="pettokaskes-container relative w-fit h-fit group">
+    <img
+      src="../assets/projects/pettokaskes/mockup-flyer.png"
+      loading="lazy"
+      alt="mockup-flyer"
+      class="w-full h-auto"
+    />
+    <div
+      class="pettokaskes-overlay absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent opacity-0 translate-y-5 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0"
+    >
+      <div class="pettokaskes-text p-4 ">
+          <span class="text-[3rem] font-bold text-darkred block mb-2">
+          Pettokaskes
+        </span>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="purina-container relative w-fit h-fit group">
+    <img
+      src="../assets/projects/purina/logo.png"
+      loading="lazy"
+      alt="logo-purina"
+      class="w-full h-auto bg-white"
+    />
+    <div
+      class="purina-overlay absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent opacity-0 translate-y-5 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0"
+    >
+      <div class="purina-text p-4">
+          <span class="text-[3rem] font-bold text-darkred block mb-2">
+          Purina
+        </span>
+        <router-link
+          to="/projet/purina"
+          class="bg-darkred text-white py-2 px-4 hover:bg-red-600 transition"
+
+        >
+          En savoir plus
+        </router-link>
+      </div>
+    </div>
+  </div>
+
+  <div class="dday-container relative w-fit h-fit group -mt-8">
+    <img
+      src="../assets/projects/reviers/mockup.png"
+      loading="lazy"
+      alt="mockup-reviers"
+      class="w-full h-auto"
+    />
+    <div
+      class="dday-overlay absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent opacity-0 translate-y-5 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0"
+    >
+      <div class="dday-text p-4">
+        <span class="text-[3rem] font-bold text-darkred block mb-2">
+          Reviers
+        </span>
+
+      </div>
+    </div>
+  </div>
+  </div>
 </div>
-</div>
+
 
 <div class="professional-projects-container w-full mt-24">
     <div class="top-professional-projetcs-container flex justify-center items-center flex-row-reverse">
@@ -101,11 +191,30 @@
     </div>
 
     <div class="projects-grid-container grid grid-cols-2 gap-8 p-8">
-    <img src="../assets/projects/bienvoir/magazines.png" alt="bienvoir-magazine" class="w-full h-auto">
-    <img src="../assets/projects/bienvoir/article_1.png" alt="bienvoir-article-1" class="w-full h-auto ">
-    <img src="../assets/projects/bienvoir/article_2.png" alt="bienvoir-article-2" class="w-full h-auto -mt-[470px]">
-    <img src="../assets/projects/bienvoir/article_3.png" alt="bienvoir-article-3" class="w-full h-auto">
-    <img src="../assets/projects/bienvoir/journal.png" alt="bienvoir-journal" class="w-full h-auto -mt-[470px]">
+      <div class="bienvoir-container relative w-fit h-fit group">
+    <img
+      src="../assets/projects/bienvoir/article_2.png"
+      loading="lazy"
+      alt="mockup-reviers"
+      class="w-full h-auto"
+    />
+    <div
+      class="bienvoir-overlay absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent opacity-0 translate-y-5 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0"
+    >
+      <div class="bienvoir-text p-4">
+        <span class="text-[3rem] font-bold text-darkred block mb-2">
+          Bienvoir
+        </span>
+        <router-link
+          to="/projet/bienvoir"
+          class="bg-darkred text-white py-2 px-4 hover:bg-red-600 transition"
+
+        >
+          En savoir plus
+        </router-link>
+      </div>
+    </div>
+  </div>
 
 </div>
 </div>
@@ -129,10 +238,55 @@
     </div>
 
     <div class="projects-grid-container grid grid-cols-2 gap-8 p-8">
-    <img src="../assets/projects/lucie/carte.png" alt="carte-lucie" class="w-full h-auto">
-    <!-- <img src="../assets/projects/lucie/charte.png" alt="charte-lucie" class="w-full h-auto"> -->
-    <img src="../assets/projects/lucie/todbag.png" alt="todbag-lucie" class="w-full h-auto">
-    <img src="../assets/projects/lucie/logostacklab.png" alt="logo-stacklab" class="w-full h-auto">
+      <div class="lucie-container relative w-fit h-fit group">
+    <img
+      src="../assets/projects/lucie/carte.png"
+      loading="lazy"
+      alt="carte-lucie"
+      class="w-full h-auto"
+    />
+    <div
+      class="lucie-overlay absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent opacity-0 translate-y-5 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0"
+    >
+      <div class="lucie-text p-4">
+        <span class="text-[3rem] font-bold text-darkred block mb-2">
+          Lucie Bisson
+        </span>
+        <router-link
+          to="/projet/lucie"
+          class="bg-darkred text-white py-2 px-4 hover:bg-red-600 transition"
+
+        >
+          En savoir plus
+        </router-link>
+      </div>
+    </div>
+  </div>
+
+  <div class="dday-container relative w-fit h-fit group">
+    <img
+      src="../assets/projects/lucie/logostacklab.png"
+      loading="lazy"
+      alt="stacklab-logo"
+      class="w-full h-auto"
+    />
+    <div
+      class="dday-overlay absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent opacity-0 translate-y-5 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0"
+    >
+      <div class="dday-text p-4">
+        <span class="text-[3rem] font-bold text-darkred block mb-2">
+          Stacklab
+        </span>
+        <router-link
+          to="/projet/stacklab"
+          class="bg-darkred text-white py-2 px-4 hover:bg-red-600 transition"
+
+        >
+          En savoir plus
+        </router-link>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -141,14 +295,16 @@
 
 </div>
   </template>
-  
-  <script>
-  export default {
-    name: "Projects",
+<script>
+import { animate, scroll } from "@motionone/dom";
+import { onMounted } from "vue";
 
-  };
-  </script>
-  
+export default {
+  name: "Projects",
+};
+</script>
+
+
   <style scoped>
     #academic {
     -webkit-text-fill-color: transparent;
@@ -156,5 +312,9 @@
     transform: rotate(-20deg);
     translate: -25%;
   }
+
+
+
+
   </style>
   

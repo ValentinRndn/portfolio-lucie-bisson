@@ -1,6 +1,6 @@
 <template>
-    <h1>
-        Academic Projects
+    <h1 class="text-white">
+        Lucie Projects
     </h1>  </template>
       
       <script>

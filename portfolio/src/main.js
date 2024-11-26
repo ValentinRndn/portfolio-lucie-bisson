@@ -6,9 +6,12 @@ import Home from './views/Home.vue'
 import About from './views/About.vue'
 import Contact from './views/Contact.vue'
 import Portfolio from './views/Portfolio.vue'
-import Academic from './views/projects/Academic.vue'
-import Personal from './views/projects/Personal.vue'
-import Professional from './views/projects/Professional.vue'
+import Charrues from './views/projects/Charrues.vue'
+import Purina from './views/projects/Purina.vue'
+import Bienvoir from './views/projects/Bienvoir.vue'
+import Lucie from './views/projects/Lucie.vue'
+import Stacklab from './views/projects/Stacklab.vue'
+
 
 const router = createRouter({
     history: createWebHistory(),
@@ -31,17 +34,25 @@ const router = createRouter({
             component: Portfolio    
         },
         {
-            path : '/portfolio/academic',
-            component: Academic
+            path : '/projet/charrues',
+            component: Charrues
         },
         {
-            path : '/portfolio/personnal',
-            component: Personal
+            path : '/projet/purina',
+            component: Purina
         },
         {
-            path : '/portfolio/professional',
-            component: Professional
+            path : '/projet/bienvoir',
+            component: Bienvoir
         },
+        {
+            path : '/projet/lucie',
+            component: Lucie
+        },
+        {
+            path : '/projet/stacklab',
+            component: Stacklab
+        }
 
     ]
 })

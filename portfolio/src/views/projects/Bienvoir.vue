@@ -1,6 +1,6 @@
 <template>
     <h1>
-        Personnal Projects
+        Bienvoir projects
     </h1>  </template>
       
       <script>

@@ -5,13 +5,13 @@
     <span id="intro" class="text-darkred text-[8rem] font-bold md:text-[6rem]">INTRODUC<br>TION</span>
     <div class="image-container absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
   <!-- Le cadre décalé en arrière-plan -->
-  <div class="backpicture w-[340px] h-[450px] border-2 border-lightpink absolute top-4 right-4 bg-lightred md:h-[290px] md:w-[220px]"></div>
+  <div class="backpicture w-[90%] h-[100%] border-2 border-lightpink absolute top-6 right-16 bg-lightred"></div>
 
   <!-- L'image principale -->
   <img
     src="../assets/intro/ppred.png"
     alt="Profil Picture"
-    class="object-cover w-[400px] border-2 border-darkred bg-lightred relative"
+    class="object-cover w-[90%] max-w-[400px] border-2 border-darkred bg-lightred relative"
   />
 </div>
 
@@ -20,21 +20,33 @@
 
 
 
-<div class="top-right-container w-full flex flex-col items-center">
+<div class="top-right-container w-full flex flex-col md:items-center">
     <span class="text-[10rem] relative font-bold text-darkred md:text-[6rem]">
   Hellooo!
-  <span class="text-lightpink font-relation text-[5rem] absolute left-8 top-16 md:text-[3rem] md:top-12 md:left-4">
+  <span class="text-lightpink font-relation text-[5rem] absolute left-8 top-20 md:text-[3rem] md:top-12 md:left-4">
     Introduction
   </span>
 </span>
 <div class="presentation-text w-full md:max-w-[60%] flex flex-col">
     <p class="text-darkred text-[1.5rem] md:text-[1.5rem] ">Moi c'est Lucie</p>
-    <p class="text-darkred text-[1.5rem] md:text-[1.5rem]  ">Je suis graphiste Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, quaerat quod accusamus doloremque hic soluta id minus vel sint cum? </p>
+    <p class="text-darkred text-[1.5rem] md:text-[1.5rem]  ">Je suis passionnée par le montage vidéo et photo, je
+suis créative j’aime capturer et raconter des histoires à
+travers mes montages. Que ce soit pour des projets
+personnels ou professionnels, j'adore donner vie à des
+moments uniques et inspirants.
+En dehors du monde du montage, je suis une
+aventurière qui aime découvrir de nouveaux horizons à
+travers les voyages. J'aime explorer de nouvelles
+cultures, goûter à des saveurs exotiques et créer des
+souvenirs inoubliables.
+La mode est également une passion qui me permet
+d'exprimer ma créativité. Je suis toujours à l'affût des
+dernières tendances. </p>
   </div>
   </div>
-<div class="bottom-right-container w-full flex flex-col items-center">
+<div class="bottom-right-container w-full flex flex-col md:items-center">
     <span class=" text-darkred text-[4rem] font-bold relative">Mes réseaux
-        <span class="text-lightpink font-relation text-[2.4rem] absolute left-4 top-6 ">
+        <span class="text-lightpink font-relation text-[2.4rem] absolute left-4 top-7 ">
     Follow me
   </span>
     </span>

@@ -91,7 +91,7 @@
     </div>
     <div class="right-list-container flex flex-col justify-center text-d">
       <span class="date text-[1.1rem]">Sep 2025 - Aou 2026 </span>
-      <span class=""><span class="">Licence</span> <span class="font-bold text-[1.5rem]">- CREATION NUMERIQUE</span></span>
+      <span class=""><span class="">Bachelor</span> <span class="font-bold text-[1.5rem]">- CREATION NUMERIQUE</span></span>
       <span class="text-[1.1rem]">MyDigitalSchool</span>
     </div>
     </li>
