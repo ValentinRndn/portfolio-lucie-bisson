@@ -129,7 +129,7 @@
 
   <div class="purina-container relative w-fit h-fit group">
     <img
-      src="../assets/projects/purina/logo.png"
+      src="../assets/projects/purina/logo-purina.png"
       loading="lazy"
       alt="logo-purina"
       class="w-full h-auto bg-white"

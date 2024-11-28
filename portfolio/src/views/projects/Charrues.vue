@@ -4,7 +4,7 @@
             <img src="../../assets/home/left_arrow.png" alt="left-arrow" class="absolute w-[100px] top-12 left-12 z-20 md:top-5 md:left-0">
         </router-link>
       <div class="content w-full max-w-screen-lg">
-        <h1 class="text-[7rem] relative text-center font-bold text-darkred md:text-[3rem]">
+        <h1 class="text-[7rem] relative text-center font-bold text-darkred md:text-[3rem] w-fit">
           Les vieilles charrues
           <span class="text-lightpink font-relation text-[5rem] absolute left-80 top-10 md:text-[2.3rem] md:top-4 md:left-28">
             Projet
@@ -39,7 +39,7 @@
   
   .pictures-container {
     display: grid;
-    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(2, 1fr);
     gap: 40px;
     justify-content: center;
     align-items: center;
