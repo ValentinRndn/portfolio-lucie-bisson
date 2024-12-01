@@ -4,7 +4,7 @@
 
 <div class="skills-top-container flex justify-center items-center gap-40 w-full h-full md:flex-col ">
   <div class="top-left-container-relative relative  w-[520px] md:w-[88%]">
-  <div class="backpicture   w-[530px] h-[735px] border-2 border-lightpink absolute top-4 right-4 md:w-[375px] md:h-[700px]"></div>
+    <div class="backpicture w-[100%] h-[100%]  border-2 border-lightpink absolute top-4 right-4 "></div>
 
   <div class="skills-top-left-container bg-lightred h-fit p-12 border-2 border-darkred relative">
 
@@ -71,7 +71,7 @@
 
 
 <div class="top-right-container-relative relative w-[520px] md:w-[90%]">
-  <div class="backpicture w-[530px] h-[735px]  border-2 border-lightpink absolute top-4 right-4  md:w-[375px] md:h-[700px]"></div>
+  <div class="backpicture w-[100%] h-[100%]  border-2 border-lightpink absolute top-4 right-4 "></div>
 
   <div class="skills-top-right-container bg-lightred h-fit p-12 border-2 border-darkred relative">
 
@@ -140,7 +140,7 @@
 
 
 <div class="skills-bottom-container bg-black w-full pt-52">
-  <div class="title-experiences mb-10 w-full ml-48">
+  <div class="title-experiences mb-10 w-full ml-48 md:ml-0 md:text-center">
   <span class="text-[6rem] relative font-bold text-darkred">
     Skills
     <span class="text-lightpink font-relation text-[4rem] absolute left-6 top-7 ">
@@ -149,8 +149,8 @@
   </span>
 </div>
   <!-- Section avec défilement horizontal -->
-  <section class="horizontal-scroll-section  bg-black relative overflow-hidden">
-          <div class="flex w-full justify-center items-center ">
+  <section class="horizontal-scroll-section  bg-black relative overflow-hidden ">
+          <div class="flex w-full justify-center items-center flex-wrap">
           <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 24 24"><g fill="none" stroke="#DE3A31" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M3 12c0-4.243 0-6.364 1.318-7.682S7.758 3 12 3s6.364 0 7.682 1.318S21 7.758 21 12s0 6.364-1.318 7.682S16.242 21 12 21s-6.364 0-7.682-1.318S3 16.242 3 12"/><path d="M6.79 15.79V12m0 0V9.276c0-.11 0-.165.004-.211c.044-.45.4-.806.85-.85c.046-.004.101-.004.211-.004h1.303a1.895 1.895 0 1 1 0 3.789zm10.388-.737c-.164-.659-.935-1.158-1.862-1.158c-1.047 0-1.895.637-1.895 1.421c0 .785.848 1.421 1.895 1.421c1.046 0 1.895.637 1.895 1.421c0 .785-.849 1.421-1.895 1.421c-.93 0-1.704-.502-1.864-1.165"/></g></svg>
           <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 24 24"><g fill="none" stroke="#DE3A31" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M3 12c0-4.243 0-6.364 1.318-7.682S7.758 3 12 3s6.364 0 7.682 1.318S21 7.758 21 12s0 6.364-1.318 7.682S16.242 21 12 21s-6.364 0-7.682-1.318S3 16.242 3 12"/><path d="m12.947 15.79l-.82-2.653m-4.864 2.652l.82-2.652m0 0l.687-2.218c.558-1.806.838-2.708 1.335-2.708c.498 0 .777.902 1.336 2.708l.686 2.218m-4.043 0h4.043m3.662 2.652v-4.736m0-2.369v-.473"/></g></svg>
           <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 24 24"><g fill="none" stroke="#DE3A31" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M3 12c0-4.243 0-6.364 1.318-7.682S7.758 3 12 3s6.364 0 7.682 1.318S21 7.758 21 12s0 6.364-1.318 7.682S16.242 21 12 21s-6.364 0-7.682-1.318S3 16.242 3 12"/><path d="M14.842 11.053v3.79c0 1.044-.49.946-1.42.946a2.368 2.368 0 0 1 0-4.736zm0 0V8.21m-6.631.001v7.578"/></g></svg>

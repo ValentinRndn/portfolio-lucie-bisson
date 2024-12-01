@@ -27,7 +27,7 @@
     Introduction
   </span>
 </span>
-<div class="presentation-text w-full md:max-w-[60%] flex flex-col">
+<div class="presentation-text w-full md:max-w-[80%] flex flex-col">
     <p class="text-darkred text-[1.5rem] md:text-[1.5rem] ">Moi c'est Lucie</p>
     <p class="text-darkred text-[1.5rem] md:text-[1.5rem]  ">Je suis passionnée par le montage vidéo et photo, je
 suis créative j’aime capturer et raconter des histoires à
