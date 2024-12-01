@@ -16,3 +16,15 @@ html {
   opacity: 1;
   transform: translateY(0);
 }
+
+  .hoverChildButton {
+    @apply transition-all duration-300 group-hover:top-0 group-hover:right-0;
+  }
+
+  .hoverParentButton {
+    @apply transition-all duration-300 hover:bg-lightpink hover:cursor-pointer;
+  }
+
+  .textHover {
+    @apply transition-all duration-300 group-hover:text-lightred;
+  }

@@ -1,5 +1,5 @@
 <template>
-<div class="app bg-black h-screen ">
+<div class="app bg-black ">
       <!-- <Navbar></Navbar> -->
 
     <router-view />

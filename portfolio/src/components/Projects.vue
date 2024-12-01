@@ -7,60 +7,61 @@
     Découvrez
   </span>
 </span>
+<p class="text-center text-lightpink text-lg -mt-8">Cliquez sur un projet pour découvrir le contenu</p>
 </div>
 
 <div class="projects-button-container flex justify-evenly w-full md:flex-col md:justify-center md:items-center md:gap-10 ">
         
-    <div class="academic-button-container relative h-fit w-fit">
-    <div class="backpicture w-full h-full border-2 border-lightpink absolute top-4 right-4 "></div>
-    <div class="skills-top-left-container bg-lightred p-6 border-2 border-darkred relative  ">
+  <div class="academic-button-container group relative h-fit w-fit ">
+    <div class="backpicture w-full h-full border-2 border-lightpink absolute top-4 right-4 hoverChildButton"></div>
+    <div class="skills-top-left-container bg-lightred p-6 border-2 border-darkred relative  hoverParentButton">
         <div class="content flex flex-col text-center items-center justify-center">
-        <div class="title-experiences ">
-            <span class="text-[3rem] relative font-bold text-darkred">
-            Académiques
-            <span class="text-lightpink font-relation text-[2.8rem] absolute left-4 top-1">
-                Projets
-            </span>
-            </span>
-        </div>
+            <div class="title-experiences">
+                <a href="#academic-project" class="hoverbutton text-[3rem] relative font-bold text-darkred">
+                    Académiques
+                    <span class="text-lightpink font-relation text-[2.8rem] absolute left-4 top-1 textHover">
+                        Projets
+                    </span>
+                </a>
+            </div>
         </div>
     </div>
-    </div>
+</div>
 
-    <div class="professional-buttton-container relative h-fit w-fit">
-    <div class="backpicture w-full h-full border-2 border-lightpink absolute top-4 right-4 "></div>
-    <div class="skills-top-left-container bg-lightred p-6 border-2 border-darkred relative  ">
+    <div class="professional-buttton-container group relative h-fit w-fit">
+    <div class="backpicture w-full h-full border-2 border-lightpink absolute top-4 right-4 hoverChildButton"></div>
+    <div class="skills-top-left-container bg-lightred p-6 border-2 border-darkred relative hoverParentButton ">
         <div class="content flex flex-col text-center items-center justify-center">
         <div class="title-experiences ">
-            <span class="text-[3rem] relative font-bold text-darkred">
+            <a href="#professional-project" class="text-[3rem] relative font-bold text-darkred">
             Professionels
-            <span class="text-lightpink font-relation text-[2.8rem] absolute left-4 top-1">
+            <span class="text-lightpink font-relation text-[2.8rem] absolute left-4 top-1 textHover">
                 Projets
             </span>
-            </span>
+          </a>
         </div>
         </div>
     </div>
     </div>
 
-    <div class="personnal-button-container relative h-fit w-fit">
-    <div class="backpicture w-full h-full border-2 border-lightpink absolute top-4 right-4 "></div>
-    <div class="skills-top-left-container bg-lightred p-6 border-2 border-darkred relative  ">
+    <div class="personnal-button-container group relative h-fit w-fit">
+    <div class="backpicture w-full h-full border-2 border-lightpink absolute top-4 right-4 hoverChildButton "></div>
+    <div class="skills-top-left-container bg-lightred p-6 border-2 border-darkred relative hoverParentButton ">
         <div class="content flex flex-col text-center items-center justify-center">
         <div class="title-experiences ">
-            <span class="text-[3rem] relative font-bold text-darkred">
+            <a href="#personnal-project" class="text-[3rem] relative font-bold text-darkred">
             Personnels
-            <span class="text-lightpink font-relation text-[2.8rem] absolute left-4 top-1">
+            <span class="text-lightpink font-relation text-[2.8rem] absolute left-4 top-1 textHover">
                 Projets
             </span>
-            </span>
+          </a>
         </div>
         </div>
     </div>
     </div>
 </div>
 
-<div class="academic-projects-container w-full mt-24  overflow-hidden">
+<div id="academic-projet" class="academic-projects-container w-full mt-24  overflow-hidden">
   <div class="top-academic-projetcs-container flex justify-center items-center md:relative ">
     <div class="left-academic-projects-container-title w-3/5 flex items-center justify-center md:absolute md:w-full">
       <span class="text-[8rem] relative font-bold text-darkred w-fit md:text-[4rem] md:text-center ">
@@ -174,7 +175,7 @@
 </div>
 
 
-<div class="professional-projects-container w-full mt-24 overflow-hidden">
+<div id="professional-project" class="professional-projects-container w-full mt-24 overflow-hidden">
     <div class="top-professional-projetcs-container flex justify-center items-center flex-row-reverse">
         <div class="left-professional-projects-container-title w-3/5 flex items-center justify-center md:absolute md:w-full">
             <span class="text-[8rem] relative font-bold text-darkred w-fit md:text-[4rem] md:text-center ">
@@ -221,7 +222,7 @@
 
 
 
-<div class="personnal-projects-container w-full mt-24">
+<div id="personnal-project" class="personnal-projects-container w-full mt-24">
     <div class="top-personnal-projetcs-container flex justify-center items-center">
         <div class="left-personnal-projects-container-title w-3/5 flex items-center justify-center md:absolute md:w-full">
             <span class="text-[8rem] relative font-bold text-darkred w-fit md:text-[4rem] md:text-center ">
