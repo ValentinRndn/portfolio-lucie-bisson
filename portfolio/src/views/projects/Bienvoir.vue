@@ -20,6 +20,7 @@
           <img src="../../assets/projects/bienvoir/article_1.png" alt="bienvoir-artiche1" class="z-10 bg-white">
           <img src="../../assets/projects/bienvoir/article_2.png" alt="bienvoir-article2" class="z-10 bg-white">
           <img src="../../assets/projects/bienvoir/article_3.webp" alt="bienvoir-article3" class="z-10 bg-white">
+          <img src="../../assets/projects/bienvoir/logo.png" alt="bienvoir-logo" class="z-10 bg-white">
           <img src="../../assets/projects/bienvoir/journal.png" alt="bienvoir-journal" class="z-10 bg-white">
           <img src="../../assets/projects/bienvoir/magazines.png" alt="bienvoir-magazines" class="z-10 bg-white">
           <img src="../../assets/projects/bienvoir/promo.png" alt="bienvoir-promo" class="z-10 bg-white">

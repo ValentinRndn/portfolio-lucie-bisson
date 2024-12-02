@@ -194,7 +194,7 @@
     <div class="projects-grid-container grid grid-cols-2 gap-8 p-8 md:grid-cols-1">
       <div class="bienvoir-container relative w-fit h-fit group">
     <img
-      src="../assets/projects/bienvoir/article_2.png"
+      src="../assets/projects/bienvoir/logo.png"
       loading="lazy"
       alt="mockup-reviers"
       class="w-full h-auto"
