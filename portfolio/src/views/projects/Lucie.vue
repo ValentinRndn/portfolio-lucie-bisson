@@ -25,8 +25,8 @@
           <img src="../../assets/projects/lucie/charte-graphique-08.png" alt="lucie-charte-graphique-08" class="z-10 bg-white">
           <img src="../../assets/projects/lucie/charte-graphique-09.png" alt="lucie-charte-graphique-09" class="z-10 bg-white">
           <img src="../../assets/projects/lucie/charte-graphique-10.png" alt="lucie-charte-graphique-10" class="z-10 bg-white">
-          <img src="../../assets/projects/lucie/carte.png" alt="lucie-carte" class="z-10 bg-white">
-          <img src="../../assets/projects/lucie/todbag.png" alt="lucie-todbag" class="z-10 bg-white">
+          <img src="../../assets/projects/lucie/carte.webp" alt="lucie-carte" class="z-10 bg-white">
+          <img src="../../assets/projects/lucie/todbag.webp" alt="lucie-todbag" class="z-10 bg-white">
 
         </div>
       </div>

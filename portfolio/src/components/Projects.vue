@@ -110,7 +110,7 @@
 
   <div class="pettokaskes-container relative w-fit h-fit group">
     <img
-      src="../assets/projects/pettokaskes/mockup-flyer.png"
+      src="../assets/projects/pettokaskes/mockup-flyer.webp"
       loading="lazy"
       alt="mockup-flyer"
       class="w-full h-auto"
@@ -155,7 +155,7 @@
 
   <div class="dday-container relative w-fit h-fit group -mt-8 md:mt-0">
     <img
-      src="../assets/projects/reviers/mockup.png"
+      src="../assets/projects/reviers/mockup.webp"
       loading="lazy"
       alt="mockup-reviers"
       class="w-full h-auto"
@@ -241,7 +241,7 @@
     <div class="projects-grid-container grid grid-cols-2 gap-8 p-8 md:grid-cols-1">
       <div class="lucie-container relative w-fit h-fit group">
     <img
-      src="../assets/projects/lucie/carte.png"
+      src="../assets/projects/lucie/carte.webp"
       loading="lazy"
       alt="carte-lucie"
       class="w-full h-auto"

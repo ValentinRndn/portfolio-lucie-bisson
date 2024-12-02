@@ -15,10 +15,10 @@
           <span id="intro" class="text-darkred text-[8rem] font-bold md:text-[6rem] z-0">VIELLES CHARRUES</span>
         </div>
         <div class="pictures-container z-10 px-36 md:px-4 md:grid-cols-1 ">
-          <img src="../../assets/projects/charrues/bag.png" alt="bag-picture" class="z-10">
+          <img src="../../assets/projects/charrues/bag.webp" alt="bag-picture" class="z-10">
           <img src="../../assets/projects/charrues/pancart.png" alt="pancart-picture" class="z-10">
           <img src="../../assets/projects/charrues/post.jpg" alt="post-picture" class="z-10">
-          <img src="../../assets/projects/charrues/postmockup.png" alt="mockup-picture" class="z-10">
+          <img src="../../assets/projects/charrues/postmockup.webp" alt="mockup-picture" class="z-10">
         </div>
       </div>
     </div>
