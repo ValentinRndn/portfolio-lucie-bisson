@@ -1,6 +1,6 @@
 <template>
     <div class="charrues-container w-full bg-black flex justify-center items-center ">
-        <router-link to="/">
+      <router-link :to="{ path: '/', hash: '#academic-project' }">
             <img src="../../assets/home/left_arrow.png" alt="left-arrow" class="absolute w-[100px] top-12 left-12 z-20 md:top-5 md:left-0 md:w-[80px]">
         </router-link>
       <div class="content w-full max-w-screen-lg">
