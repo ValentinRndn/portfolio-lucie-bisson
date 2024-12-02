@@ -9,7 +9,7 @@
 
   <!-- L'image principale -->
   <img
-    src="../assets/intro/ppred.png"
+    src="../assets/intro/ppred.webp"
     alt="Profil Picture"
     class="object-cover w-[90%] max-w-[400px] border-2 border-darkred bg-lightred relative"
   />
