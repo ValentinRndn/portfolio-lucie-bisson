@@ -70,7 +70,7 @@
 
 
 
-<div class="top-right-container-relative relative w-[520px] md:w-[90%]">
+<!-- <div class="top-right-container-relative relative w-[520px] md:w-[90%]">
   <div class="backpicture w-[100%] h-[100%]  border-2 border-lightpink absolute top-4 right-4 "></div>
 
   <div class="skills-top-right-container bg-lightred h-fit p-12 border-2 border-darkred relative">
@@ -132,7 +132,7 @@
   </ul>
 </div>
 </div>
-</div>
+</div> -->
 
 
 </div>

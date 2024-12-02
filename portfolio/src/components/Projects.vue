@@ -12,7 +12,7 @@
 
 <div class="projects-button-container flex justify-evenly w-full md:flex-col md:justify-center md:items-center md:gap-10 ">
         
-  <!-- <div class="academic-button-container group relative h-fit w-fit ">
+  <div class="academic-button-container group relative h-fit w-fit ">
     <div class="backpicture w-full h-full border-2 border-lightpink absolute top-4 right-4 hoverChildButton"></div>
     <div class="skills-top-left-container bg-lightred p-6 border-2 border-darkred relative  hoverParentButton">
         <div class="content flex flex-col text-center items-center justify-center">
@@ -26,7 +26,7 @@
             </div>
         </div>
     </div>
-</div> -->
+</div>
 
     <div class="professional-buttton-container group relative h-fit w-fit">
     <div class="backpicture w-full h-full border-2 border-lightpink absolute top-4 right-4 hoverChildButton"></div>
@@ -61,7 +61,7 @@
     </div>
 </div>
 
-<!-- <div id="academic-project" class="academic-projects-container w-full mt-24  overflow-hidden">
+<div id="academic-project" class="academic-projects-container w-full mt-24  overflow-hidden">
   <div class="top-academic-projetcs-container flex justify-center items-center md:relative ">
     <div class="left-academic-projects-container-title w-3/5 flex items-center justify-center md:absolute md:w-full">
       <span class="text-[8rem] relative font-bold text-darkred w-fit md:text-[4rem] md:text-center ">
@@ -75,10 +75,10 @@
       <span id="academic" class="text-darkred text-[15rem] font-bold">EMIQUE</span>
       <span id="academic" class="text-darkred text-[15rem] font-bold ml-28 -mt-40">ACADEMIQUE</span>
     </div>
-  </div> -->
+  </div> 
 
 
-  <!-- <div
+  <div
     class="projects-academic-grid-container grid grid-cols-2 gap-8 p-8 md:grid-cols-1">
     <div class="charrue-container relative w-fit h-fit group overflow-hidden">
     <img
@@ -171,8 +171,8 @@
       </div>
     </div>
   </div>
-  </div> -->
-<!-- </div> -->
+  </div>
+</div> 
 
 
 <div id="professional-project" class="professional-projects-container w-full mt-24 overflow-hidden">
