@@ -1,7 +1,7 @@
 <template>
     <div class="projects-container w-full flex flex-col justify-center items-center bg-black gap-20 overflow-hidden">
-        <div class="projects-container-title">
-        <span class="text-[10rem] relative font-bold text-center text-darkred md:text-[5rem] w-fit">
+        <div class="projects-container-title w-full flex flex-col items-center justify-center">
+        <span class="text-[10rem] relative font-bold mx-auto text-center text-darkred md:text-[5rem] w-fit">
   Projets
   <span class="text-lightpink font-relation text-[5rem] absolute left-8 top-16  md:top-7 md:left-5 md:text-[3rem]">
     Découvrez
